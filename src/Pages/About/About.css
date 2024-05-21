@@ -1,0 +1,57 @@
+/*food*/
+
+.about_in {
+	align-items: center;
+}
+
+.about_left {
+	width: calc(40% - 45px);
+	padding: 0 50px 50px 0;
+	position: relative;
+}
+
+.about_info {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.about_right {
+	width: calc(60% - 45px);
+}
+
+.about_tit{
+	margin-bottom: 24px;
+
+}
+
+.about_txt {
+	color: #2C2F24;
+	font-size: 18px;
+	margin-bottom: 24px;
+	line-height: 28px;
+	/* 155.556% */
+}
+
+
+.about_info {
+	border-radius: 12px;
+	background: #717171;
+	padding: 50px;
+	color: #fff;
+	width: 411px;
+	line-height: 25px;
+}
+
+.about_info-txt {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: -0.72px;
+}
+.about_img{
+	width: 60%;
+	margin: 0 auto;
+}
+

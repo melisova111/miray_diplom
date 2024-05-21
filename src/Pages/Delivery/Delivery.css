@@ -1,0 +1,15 @@
+.del_tit{
+    font-size: 30px;
+    color: #5c0a54;
+	font-weight: 700;
+	margin-bottom: 30px;
+    line-height: 55px;
+    font-family: El Messiri;
+}
+
+.del_txt{
+    font-size: 18px;
+    color: #000000;
+	margin-bottom: 15px;
+    line-height: 30px;
+}

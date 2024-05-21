@@ -1,0 +1,24 @@
+.CategoryList{
+    background: rgb(245, 245, 247);
+    padding: 10px 0;
+width: 50%;
+}
+.CategoryList a{
+    display: block;
+    padding: 3px 10px;
+    transition: 0.3s;
+}
+.CategoryList a:hover{
+    background: rgb(174, 174, 207);;
+}
+.dropdownBtn{
+    padding-bottom: 5px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.dropdownContent{
+    background: rgb(245, 245, 247);
+    padding: 10px 0;
+     font-size: 20px;
+     text-align: center;
+}
