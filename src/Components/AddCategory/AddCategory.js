@@ -38,17 +38,17 @@ export default function AddCategory() {
     });
   }
 
-  return (
-    <div className="AddCategory">
-      <input
-        size="15"
-        type="text"
-        placeholder="Category name"
-        value={category}
-        onChange={onChangeCategory}
-      />
-      <button onClick={onAddCategory} disabled={isSubmitting}>
-        +
-      </button>
-    </div>)
+  // return (
+  //   <div className="AddCategory">
+  //     <input
+  //       size="15"
+  //       type="text"
+  //       placeholder="Category name"
+  //       value={category}
+  //       onChange={onChangeCategory}
+  //     />
+  //     <button onClick={onAddCategory} disabled={isSubmitting}>
+  //       +
+  //     </button>
+  //   </div>)
 }
