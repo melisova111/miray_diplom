@@ -12,7 +12,7 @@ import Product from "./Pages/Product/Product";
 import { Cart } from "./Pages/Cart/Cart";
 import ThankYou from "./Pages/ThankYou/ThankYou";
 import Orders from "./Pages/Orders/Orders";
-// import ProductComponent from "./Pages/Product/Product";
+import ProductComponent from "./Pages/Product/Product";
 import CategoryList from "./Components/CategoryList/CategoryList";
 
 
