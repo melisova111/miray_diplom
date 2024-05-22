@@ -9,9 +9,9 @@ export default function Layout(props) {
       <Header />
       <div className="container">
         <div className="Layout flex">
-          <aside>
+          {/* <aside>
             <CategoryList />
-          </aside>
+          </aside> */}
           <main>{props.children}</main>
         </div>
       </div>
