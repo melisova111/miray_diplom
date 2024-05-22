@@ -1,0 +1,11 @@
+.cart_ic{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(221, 97, 223);
+}
+.cart_num{
+     margin-left: 70px;
+     font-size: 18px;
+}
