@@ -1,15 +1,19 @@
 import { Card } from 'antd';
 import VideoComponent from '../../Components/Video/Video';
 import './Home.css';
-
-
-
+import ProductList from '../../Components/ProductList/ProductList';
+// import Product from '.Page/Product/Product';
+// import { useState } from 'react';
 
 function Home() {
+//   const [categories, setCategories] = useState([]);
+  
   return (
    <> 
    <VideoComponent />
    <Card/>
+   {/* <Product></Product> */}
+   {/* <ProductList categories={categories} /> */}
     <div className="container">
 			<div className="plus_tit">
         < p className='zag'>shop you way</p>

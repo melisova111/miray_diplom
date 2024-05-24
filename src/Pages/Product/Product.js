@@ -1,9 +1,14 @@
 import './Product.css';
 import { Link } from 'react-router-dom';
+import CategoryList from '../../Components/CategoryList/CategoryList';
 
 function Product() {
 	return (
 		<>
+		<aside>
+            <CategoryList />
+          </aside>
+
 		<div className="pages_cards flex">
 			<div className="pages_card">
 				<a href="pages2.html">
@@ -13,11 +18,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -28,11 +33,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -43,11 +48,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -58,11 +63,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -73,11 +78,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -88,11 +93,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -103,11 +108,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -118,11 +123,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -133,11 +138,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -148,11 +153,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -163,11 +168,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -178,11 +183,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -193,11 +198,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -208,11 +213,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -223,11 +228,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 			<div className="pages_card">
@@ -238,11 +243,11 @@ function Product() {
 
 					<h3 className="product_tit">«
 						SEVEN7EEN BODY SILK Лосьон для тела - GREEN JASMINE, 100мл 	</h3>
-					<span className="product_price flex ">4600cом
+					{/* <span className="product_price flex ">4600cом
 					<Link to="/" >
 						<img src='https://icons.veryicon.com/png/o/miscellaneous/unicons/cart-38.png' alt='' className="pages_ic" />
 					</Link>
-					</span>
+					</span> */}
 				</a>
 			</div>
 
