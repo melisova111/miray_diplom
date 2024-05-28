@@ -1,15 +1,13 @@
+
 import CategoryList from '../CategoryList/CategoryList';
 import './Menu.css';
 import {Link} from 'react-router-dom'
-// import Product from '../Page/Product/Product';
 function Menu() {
   return (
 <header>
         <nav className='menu' >
 
-          <ul className='flex'>
-     
-            
+          <ul className='flex'>      
             <li>
               <Link to="./">Home</Link>
             </li>
@@ -22,9 +20,10 @@ function Menu() {
             <li>
               <Link to="./contact">Contact</Link>
             </li>
-            <li>
-              <Link to="./product">Product </Link>
-            </li>
+            {/* <li>
+              <Link to="./productpp">Product </Link>
+            </li> */}
+            <CategoryList />
          
             </ul>
 
