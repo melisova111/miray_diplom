@@ -14,5 +14,8 @@
 }
 .product .product-name {
   font-size: 30px;
-  color: palevioletred;
+  color: rgb(180, 112, 135);
+}
+.Order{
+  border: 1px solid #951515;
 }
