@@ -22,11 +22,11 @@
 
 .about_tit{
 	margin-bottom: 24px;
-
+	color: #3a0145;
 }
 
 .about_txt {
-	color: #2C2F24;
+	color: #3a0145;
 	font-size: 18px;
 	margin-bottom: 24px;
 	line-height: 28px;
@@ -38,13 +38,13 @@
 	border-radius: 12px;
 	background: #717171;
 	padding: 50px;
-	color: #fff;
+	color: #3a0145;
 	width: 411px;
 	line-height: 25px;
 }
 
 .about_info-txt {
-	color: #FFF;
+	color: #3a0145;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 40px;
@@ -55,3 +55,76 @@
 	margin: 0 auto;
 }
 
+.our .sec_tit {
+	margin-bottom: 64px;
+}
+
+.our_card {
+	width: calc((100% - 48px)/3);
+	border-radius: 12px;
+	background: #F9F9F7;
+	padding: 45px 35px 35px;
+}
+
+.our_tit {
+	color: #280431;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	/* 125% */
+	letter-spacing: -0.72px;
+	padding-bottom: 24px;
+}
+
+.our_txt {
+	font-size: 18px;
+	line-height: 28px;
+	/* 155.556% */
+	padding-bottom: 32px;
+	margin-bottom: 32px;
+	border-bottom: 1px solid #D8DFD0;
+}
+
+.our_img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+}
+
+.our_customer {
+	justify-content: flex-start;
+}
+
+.our_info {
+	padding-left: 20px;
+
+}
+
+.our_name {
+	color: #2C2F24;
+	/* font-family: DM Sans; */
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	display: block;
+}
+
+.our_address {
+	color: var(--neutral-06, #414536);
+	/* font-family: DM Sans; */
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	/* 150% */
+}
+.sec_tit{
+	font-weight: 500;
+	font-size: 50px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.our_cards{
+	margin-bottom: 50px;
+}
