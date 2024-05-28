@@ -1,40 +1,40 @@
 import { useContext } from "react";
 import "./ProductList.css";
 import { AppContext } from "../../App";
-import { Link } from "react-router-dom";
-import { AddToCart } from "../AddToCart/AddToCart";
-import AddProduct from "../AddProduct/AddProduct";
+import { NavLink } from "react-router-dom";
 import DeleteProduct from "../DeleteProduct/DeleteProduct";
-
+import CategoryList from "../CategoryList/CategoryList";
+import AddProduct from "../AddProduct/AddProduct";
+import { AddToCart } from "../AddToCart/AddToCart";
 export default function ProductList({ category }) {
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
   const { products } = useContext(AppContext);
+
   const output = products.filter(product => product.category === category.id)
-    .map(product => (
-      <div key={product.id} className="product">
-        <Link to={"/products/" + product.slug}>
-          <img src={product.picture} alt={product.name} />
-        </Link>
-        <hr />
-        <Link to={"/products/" + product.slug} className="text">
-          {product.name}
-        </Link>
-
-        <br />
-
-        <div className="actions">
-
-          <span>${product.price}</span>
-          <AddToCart product={product} />
-        </div>
-        <DeleteProduct product={product} />
+    .map(products => (
+      <div key={products.id} className="BoxList">
+        <NavLink to={'/products/' + products.slug} onClick={scrollToTop}>
+          <img src={products.picture} alt={products.name} />
+          {products.name}
+        </NavLink>
+        <span>{products.price} $</span>
+        <AddToCart product={products} />
+        <DeleteProduct product={products} />
       </div>
-    ));
+    ))
 
   return (
-    <div className="ProductList">
-      {output}
+    <div className="ProductList container">
+      <div className="Productin">
+        <h1>{category.name}</h1>
+        <div className="content">
+          {output}
+        </div>
+        <AddProduct category={category} />
 
-      <AddProduct category={category} />
+      </div>
     </div>
   )
 }
