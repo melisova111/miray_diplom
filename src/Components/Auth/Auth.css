@@ -3,21 +3,25 @@
   margin-top: 25px;
   /* margin: 0 auto; */
 }
+
 .Auth .blueBtn {
-  background-color: #ffc8ff9d;
+  background-color: #fdc0c0;
   border: 0;
   padding: 5px 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(59, 0, 52);
   border-radius: 5px;
   font-family: inherit;
   margin-left: 7px;
   transition: all 100ms linear;
   cursor: pointer;
+  font-weight: 500;
 }
+
 .Auth .blueBtn:hover {
-  background-color: #c47ad1;
-  color: rgb(255, 255, 255);
+  background-color: rgba(249, 200, 200, 0.651);
+  color: rgb(0, 0, 0);
 }
+
 .Auth .icon {
   background-color: transparent;
   border: none;
