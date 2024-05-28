@@ -6,3 +6,8 @@ main{
   padding-left: 20px;
 }
 
+main{
+  padding-top: 200px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
