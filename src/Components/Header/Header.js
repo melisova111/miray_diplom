@@ -3,6 +3,7 @@ import "./Header.css";
 import CartLink from "../CartLink/CartLink";
 import Auth from "../Auth/Auth";
 import Menu from "../Menu/Menu";
+import Search from "../Search/Search";
 
 export default function HeaderSection() {
 
@@ -14,12 +15,12 @@ export default function HeaderSection() {
           <a href="/">
           <p className="logo_name">MirAy</p>
           </a>
-          <Menu />
-        
+          <Search/>   
           <div className="buttons flex">
             <Auth />
             <CartLink />
           </div>
+          <Menu />
         </div>
       </div>
     </header>
