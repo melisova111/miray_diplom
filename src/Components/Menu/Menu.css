@@ -1,36 +1,37 @@
 .head {
-	padding: 20px 0;
-	align-items: center;
+  /* padding: 20px 0; */
+  align-items: center;
 }
 
 .menu {
-	display: flex;
-	justify-content: center;
-	padding: 20px 0;
-	background: #ffffff9d;
+  display: flex;
+  justify-content: center;
+  padding: 13px 0;
+  text-align: center;
 }
 
 .menu a {
-	padding: 4px 16px;
-	margin-right: 8px;
-	color: #2C2F24;
-	font-size: 20px;
-	font-weight: 500;
-	line-height: 24px;
-	transition: 0.5s;
-	border-radius: 20px;
+  padding: 4px 16px;
+  margin-right: 8px;
+  color: #3a0145;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  transition: 0.5s;
+  border-radius: 20px;
 
 }
 
 .menu li {
- margin-right: 0;
+  margin-right: 0;
   padding: 3px 10px;
   font-weight: 600;
   transition: 0.3s;
   border-bottom: 2px solid transparent;
 }
-.menu li:hover{
-  border-color: #b770b6;
+
+.menu li:hover {
+  border-color: #571456;
 }
 
 /* .menu a:hover {
@@ -53,5 +54,5 @@
 	height: 60px;
 } */
 header{
-  padding-top: 20px;
+  margin: 0 auto;
 }
