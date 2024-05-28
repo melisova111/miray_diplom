@@ -5,15 +5,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.521);
+  background-color: rgba(244, 227, 227, 0.521);
   z-index: 1000;
-
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
   pointer-events: none;
-
   transition: all 150ms linear;
 }
 .OrderForm.active {
@@ -23,6 +21,7 @@
 .popup {
   padding: 20px 50px;
   background-color: white;
+  color: rgba(0, 0, 0, 0.614);
 }
 
 .popup form {
@@ -36,7 +35,7 @@
   font-size: 20px;
   border: none;
   padding-left: 10px;
-  border: 1px solid rgba(0,0,0,0.3);
+  border: 1px solid rgba(255, 4, 4, 0.3);
 }
 .popup form label{
   margin-bottom: 10px;
@@ -45,4 +44,11 @@
   margin-top: 15px;
   display: block;
   text-align: center;
+  background: #fbd0d0;
+  border: 1px solid rgba(56, 0, 0, 0.3);
+
+}
+.popup .Btn:hover{
+  background: #e8a5a5;
+  color: #390000;
 }
