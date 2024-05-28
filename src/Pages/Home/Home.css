@@ -10,11 +10,9 @@
 }
 
 .advan_ic {
-    max-width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 70px;
+    height: 70px;
     display: block;
-    background: #eb7cd8;
     margin: 0 auto 15px;
 }
 
@@ -22,6 +20,7 @@
     text-align: center;
     max-width: 180px;
     font-size: 18px;
+    color: #3a0145;
 }
 
 .advan_card {
@@ -44,16 +43,79 @@
     text-align: center;
     margin-bottom: 20px;
     font-size: 22px;
+    color: #3a0145;
 }
 
 .zag {
     text-align: center;
     margin-bottom: 20px;
     font-size: 20px;
+    color: #3a0145;
+    margin-top: 70px;
 }
 .sec_tit{
     text-align: center;
+    color: #3a0145;
 }
 .main_img{
     width: 100%;
+}
+
+
+.fastest_food .sec_sub-tit {
+	max-width: 414px;
+	color: var(--neutral-07, #2C2F24);
+	padding-top: 50px;
+	/* font-family: Playfair Display; */
+	font-size: 55px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60.5px;
+	/* 110% */
+	margin-bottom: 20px;
+
+}
+
+.ff_txt {
+	max-width: 414px;
+	color: var(--neutral-06, #414536);
+	/* font-family: DM Sans; */
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	/* 150% */
+	margin-bottom: 50px;
+}
+
+.icons2 {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 20px;
+	color: var(--neutral-07, #2C2F24);
+	/* font-family: DM Sans; */
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26px;
+	/* 130% */
+
+}
+
+.provide_l2 {
+	align-items: stretch;
+	padding-top: 27px 5px;
+	margin-bottom: 24px 5px;
+	margin-top: 30px;
+	margin-left: 24px;
+
+}
+.fast{
+    width: 300px;
+    height: 200px;
+}
+.fast_fast{
+    width: 300px;
+    height: 400px;
 }
