@@ -12,9 +12,9 @@ import Product from "./Pages/Product/Product";
 import { Cart } from "./Pages/Cart/Cart";
 import ThankYou from "./Pages/ThankYou/ThankYou";
 import Orders from "./Pages/Orders/Orders";
-import ProductComponent from "./Pages/Product/Product";
 import CategoryList from "./Components/CategoryList/CategoryList";
-
+import ProductPage from "./Pages/ProductPage/ProductPage";
+// import Scroll from ".//Components/Scroll/Scroll";  
 
 export const AppContext = createContext({
   categories: [],
@@ -70,7 +70,7 @@ function App() {
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/orders" element={<Orders />} />
             <Route path="/categorylist" element={<CategoryList />} />
-
+            <Route path="/productpp" element={<ProductPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
