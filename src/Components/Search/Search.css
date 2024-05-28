@@ -1,0 +1,42 @@
+.Search {
+    background-color: white;
+    margin: auto 50px;
+    border-radius: 5px;
+    position: relative;
+    max-height: 40px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 350px;
+  }
+  .Search input {
+    background: none;
+    border: 0;
+    border-radius: 5px;
+    color: #3f0035;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    padding: 0;
+  }
+  .Search .NoResults {
+    position: absolute;
+  }
+  .Search .SearchResults {
+    position: absolute;
+    right: 400px;
+    top: 0;
+  }
+  .Search .searcher {
+    color: #3f0035;
+
+    margin: 8px;
+  }
+  .Search input::placeholder {
+    color: #222;
+  }
+  
+  @media (max-width: 640px) {
+    .Search {
+      display: none
+    }
+  }
