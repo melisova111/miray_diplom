@@ -1,12 +1,16 @@
 .BoxList img {
-  width: 200px;
-  height: 200px;
+  /* width: 200px;
+  height: 200px; */
   border-radius: 10px;
 }
 
 .BoxList a {
   text-decoration: none;
-  color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 0 20px 0;
+    color: #392239;
+  
 }
 
 .BoxList a:hover {
@@ -46,4 +50,11 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+
+}
+.price{
+  font-size: 18px;
+  font-weight: 700;
+  color: #5f0047;
+  margin:  15px 10px 15px 0;
 }
