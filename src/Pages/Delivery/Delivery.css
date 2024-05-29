@@ -13,3 +13,11 @@
 	margin-bottom: 15px;
     line-height: 30px;
 }
+@media screen and (max-width: 750px){
+    .del_txt{
+        font-size: 18px;
+        color: #3a0145;
+        margin-bottom: 15px;
+        line-height: 24px;
+    }
+}

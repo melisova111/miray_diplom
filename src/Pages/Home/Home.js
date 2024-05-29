@@ -45,8 +45,8 @@ function Home() {
     <div className="container">
 			<div className="plus_tit">
         < p className='zag'>shop you way</p>
-				<h2 className="sec_tit">Why choose us
-				</h2>
+				<p className="sec_tit_home">Why choose us
+				</p>
 			</div>
 			<div className="advan_cards flex">
 				<div className="advan_card advan_card_1">
