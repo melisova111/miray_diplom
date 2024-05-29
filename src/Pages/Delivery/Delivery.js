@@ -6,9 +6,9 @@ function Delivery() {
 			<h1>Delivery</h1>
 			
 
-			<marquee behavior="scroll" direction="left" scrollamount="15">
+			
 			<p class="del_tit">Dear our customers, delivery is provided by the Courier Service.</p>
-			</marquee>
+			
 			
 
 			<p class="del_txt">Delivery within the city of Bishkek starts from 200 som, depending on the customer's address. Additional charges may apply for delivery to remote areas according to the courier service's tariff.</p>
@@ -19,9 +19,9 @@ function Delivery() {
 
 			<p class="del_txt">Delivery to regions, regardless of the order amount, incurs a charge based on the courier service's tariff (from 250 som to 350 som). Delivery to regions is carried out after full payment for the order. <b> Orders are delivered within 24 to 48 hours.</b></p>
 
-			<marquee behavior="scroll" direction="left" scrollamount="15">
+
 				<p class="del_tit">On promotional days, delivery is chargeable regardless of the order amount.</p>
-			</marquee>
+			
 
 
 			<p class="del_txt">Orders placed before 13:00 are delivered on the same day. If the order is placed later, delivery on the same day or the next day is possible by agreement with the customer (you can write all your delivery preferences in the comments).</p>

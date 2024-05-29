@@ -35,7 +35,7 @@
     color: #222;
   }
   
-  @media (max-width: 640px) {
+  @media (max-width: 790px) {
     .Search {
       display: none
     }

@@ -12,10 +12,11 @@ main{
   min-height: 100vh;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
   main{
     width: 100%;
     padding: 0 0 30px;
+    min-height: 150vh;
   }
 }
 

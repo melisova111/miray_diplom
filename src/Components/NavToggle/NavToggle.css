@@ -4,16 +4,17 @@
   cursor: pointer;
   background-color: transparent;
   border: none;
+  align-self: start;
 }
 .NavToggle .line {
   width: 25px;
   height: 2px;
   margin: 5px;
-  background-color: #000000;
+  background-color: #3b002a;
 }
 
 @media (max-width: 888px) {
   .NavToggle {
-    display: inline-block;
+    display: block;
   }
 }

@@ -1,5 +1,5 @@
 
-import Menu from "../Menu/Menu";
+import MenuBurger from "../MenuBurger/MenuBurger";
 import "./Drawer.css";
 
 function Drawer({ open, toggle }) {
@@ -10,7 +10,7 @@ function Drawer({ open, toggle }) {
       <div onClick={toggle} className="backdrop"></div>
       <div className="content">
         <div className="Logo-Nav">
-          <Menu />
+          <MenuBurger />
         </div>
       </div>
     </div>

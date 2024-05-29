@@ -33,13 +33,7 @@ export default function Menu() {
             <CategoryList />
          
             </ul>
-
-
             </nav>
 </header>
-           
-        
-     
-
   );
 }
