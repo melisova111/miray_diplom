@@ -2,9 +2,7 @@ import { Card } from 'antd';
 import VideoComponent from '../../Components/Video/Video';
 import './Home.css';
 import ProductList from '../../Components/ProductList/ProductList';
-// import Product from '.Page/Product/Product';
-// import { useState } from 'react';
-// import Slider from '../../Components/Slider/Slider'
+import All from'../../Components/All/All'
 
 function Home() {
 //   const [categories, setCategories] = useState([]);
@@ -14,7 +12,7 @@ function Home() {
    {/* <Slider/> */}
    <VideoComponent />
    <Card/>
-
+<All/>
    <div class="container">
 			<div class="provide_in2 flex">
 				<div class="provide_left2 flex">
