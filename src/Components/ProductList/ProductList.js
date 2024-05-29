@@ -19,7 +19,7 @@ export default function ProductList({ category }) {
           <img src={products.picture} alt={products.name} />
           {products.name}
         </NavLink>
-        <span>{products.price} $</span>
+        <span className="price">{products.price} $</span>
         <AddToCart product={products} />
         <DeleteProduct product={products} />
       </div>
