@@ -2,7 +2,14 @@
 import CategoryList from '../CategoryList/CategoryList';
 import './Menu.css';
 import {Link} from 'react-router-dom'
-function Menu() {
+export default function Menu() {
+  let menuBtn = document.querySelectorAll(".NavItem a");
+  let menu = document.querySelector(".Drawer");
+  menuBtn.forEach((el) => {
+    el.addEventListener("click", function () {
+      menu.classList.remove("open");
+    });
+  });
   return (
 <header>
         <nav className='menu' >
@@ -36,5 +43,3 @@ function Menu() {
 
   );
 }
-
-export default Menu;
