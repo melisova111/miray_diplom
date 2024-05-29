@@ -64,6 +64,9 @@
 	border-radius: 12px;
 	background: #F9F9F7;
 	padding: 45px 35px 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .our_tit {
@@ -81,8 +84,6 @@
 	line-height: 28px;
 	/* 155.556% */
 	padding-bottom: 32px;
-	margin-bottom: 32px;
-	border-bottom: 1px solid #D8DFD0;
 }
 
 .our_img {
@@ -93,6 +94,9 @@
 
 .our_customer {
 	justify-content: flex-start;
+	border-top: 1px solid #D8DFD0;
+	padding-top: 32px;
+
 }
 
 .our_info {
@@ -124,6 +128,9 @@
 	font-size: 50px;
 	margin-top: 60px;
 	margin-bottom: 30px;
+	font-family: 'El Messiri';
+	text-align: center;
+
 }
 .our_cards{
 	margin-bottom: 50px;
