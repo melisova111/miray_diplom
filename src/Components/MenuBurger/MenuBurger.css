@@ -30,13 +30,13 @@
   }
   
   .Nav .NavItem a {
-    color: white;
+    color: rgb(43, 0, 37);
     display: inline-block;
     line-height: 1;
     text-decoration: none; 
   }
   .NavItem a:after {
-    background-color: white;
+    background-color: rgb(50, 0, 44);
     display: block;
     content: "";
     height: 2px; 

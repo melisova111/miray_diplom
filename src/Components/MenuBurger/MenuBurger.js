@@ -9,13 +9,19 @@ export default function MenuBurger() {
           <NavLink to="/">Home</NavLink>
         </li>
         <li className="NavItem">
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="./about">About</NavLink>
         </li>
         <li className="NavItem">
-          <NavLink to="/contacts">Contacts</NavLink>
+          <NavLink to="./contact">Contacts</NavLink>
         </li>
         <li className="NavItem">
-          <NavLink to="/delivery">Delivery</NavLink>
+          <NavLink to="./delivery">Delivery</NavLink>
+        </li>
+        <li className="NavItem">
+          <NavLink to="http://localhost:3002/categories/skincare">Scincare</NavLink>
+        </li>
+        <li className="NavItem">
+          <NavLink to="http://localhost:3002/categories/MakeUp">MakeUp</NavLink>
         </li>
       </ul>
     </nav>
