@@ -90,6 +90,12 @@ footer {
     color: #670057;
     transform: scale(1.1);
 }
+.listt{
+    transition: .5s;
+}
+.listt:hover{
+   transform: scale(1.1);
+}
 @media screen and (max-width: 670px) {
     /* .footer_icons {
         padding-bottom: 30px;
