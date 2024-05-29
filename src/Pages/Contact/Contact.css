@@ -69,10 +69,6 @@ margin-bottom: 80px;
       font-size: 16px;
     }
   
-    .contact-message {
-      font-size: 16px;
-    }
-  
     .contact-button {
       font-size: 18px;
     }
@@ -87,14 +83,28 @@ margin-bottom: 80px;
   .network-icon {
     width: 40px;
     height: 40px;
-    background-color: white;
     transition: background-color 0.3s;
     cursor: pointer;
     transition: .5s;
     color: #26052d;
+    margin-bottom: 30px;
+
   }
   
   .network-icon:hover {
-    color: #333;
+    color: #35014b;
     transform: scale(1.1);
   }
+  
+@media screen and (max-width: 650px){
+  .network-icon{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+  }
+  .contact-message {  
+    margin-bottom: 40px;
+    color: #44134e;
+    font-size: 20px;
+  }
+}
