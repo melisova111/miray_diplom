@@ -45,7 +45,7 @@ footer {
 .footer_icons {
     padding-bottom: 30px;
     justify-content: center;
-    gap: 5px;
+    gap: 15px;
 }
 
 .footer_ic {
@@ -89,4 +89,43 @@ footer {
 .network-icon:hover {
     color: #670057;
     transform: scale(1.1);
+}
+@media screen and (max-width: 670px) {
+    /* .footer_icons {
+        padding-bottom: 30px;
+        justify-content: center;
+        gap: 5px;
+        width: 35px;
+        height: 35px;
+    } */
+    .network-icon{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        transition: .5s;
+        color: #26052d;
+    }
+    .footer_copy {
+        padding: 30px 0 35px;
+        color: #721784;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .footer_left {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .footer_right {
+        gap: 30px;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 480px) {
+    .footer_left {
+       text-align: center;
+       
+    }
 }
