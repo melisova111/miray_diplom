@@ -157,4 +157,12 @@
     padding: 6px 12px;
     margin-bottom: 20px;
   }
+  .CartTotal{
+    padding: 30px;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    margin: 15px;
+  }
 }
